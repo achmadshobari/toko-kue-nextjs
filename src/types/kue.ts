@@ -9,3 +9,7 @@ export interface Kue{
     rating?: number;
     bahanUtama?:string;
 }
+
+export interface itemKeranjang extends Kue{
+    jumlah: number;
+}
